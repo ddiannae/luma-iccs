@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=800, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Candidatura - Diana García</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/diana.css">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
 
@@ -25,8 +25,277 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h3>Evaluaci&oacute;n de la regulaci&oacute;n trans en c&aacute;ncer: un enfoque de biolog&iacute;a de sistemas</h3>
+					<p>M. en C. Diana Elisa Garc&iacute;a Cort&eacute;s</p>
+					<p>Tutor principal: Dr. Jes&uacute;s Espinal Enriquez</p>
+					<hr></hr>
+					<p>Comité tutor: <br/> Dr. Alfredo Hidalgo Miranda <br/>
+									Dr. Gustavo Martínez-Mekler </p>
+				</section>
+				<section> <!--data-background="#ffffff"> -->
+					<img src="img/circo-plot-mama.png"	/>
+					<small class="cita">Espinal-Enr&iacute;quez, J., Fresno, C., Anda-J&aacute;uregui, G., & Hern&aacute;ndez-Lemus, E. (2017).
+						 <b>RNA-Seq based genome-wide analysis reveals loss of inter-chromosomal regulation in breast cancer</b>. Scientific Reports, 7(1), 1–19. </small>
+				</section>
+				<section data-background="#002b36" data-background-transition="zoom">
+						<h3>Pregunta de investigaci&oacute;n</h3>
+						<p class="fragment fade-up">Si la regulaci&oacute;n inter-cromos&oacute;mica se pierde en
+						c&aacute;ncer de mama. ¿Se pierde tambi&eacute;n en otros tipos de c&aacute;ncer?</p>
+				</section>
+				<section data-background="#ffffff" data-background-transition="zoom">
+						<h3>Objetivo General</h3>
+						<p class="fragment fade-up">Evaluar la regulaci&oacute;n transcripcional inter e
+							intra-cromos&oacute;mica en diferentes tipos de c&aacute;ncer mediante un enfoque de biolog&iacute;a de sistemas.</p>
+				</section>
+				<section data-background="#002b36" data-background-transition="zoom">
+						<h3>Objetivos Espec&iacute;ficos</h3>
+						<ul>
+							<li class="fragment fade-in-then-semi-out visible">Construir redes de
+								co-expresi&oacute;n gen&eacute;tica con datos de  RNA-Seq de tejido tumoral y
+								 tejido sano para diferentes tipos de c&aacute;ncer.</li>
+							<li class="fragment fade-in-then-semi-out visible">Identificar la localizaci&oacute;n
+								cromos&oacute;mica de los genes que resulten relacionados en dichas redes.</li>
+							<li class="fragment fade-in-then-semi-out visible">Comparar la proporci&oacute;n de interacciones inter e
+								 intra-cromos&oacute;micas en las redes obtenidas.</li>
+							<li class="fragment fade-in-then-semi-out visible">Analizar si la p&eacute;rdida de regulaci&oacute;n
+								inter-cromos&oacute;mica es un fen&oacute;meno generalizado en  c&aacute;ncer.</li>
+						</ul>
+				</section>
+				<section>
+					<section>
+						<h4>Metodolog&iacute;a</h4>
+						<div style="float:left;width:35%;text-align:left">
+							<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
+						</div>
+						<div style="float:right;width:65%;text-align:right;visibility:hidden;">
+							<table class="metod" >
+								<thead></thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="img/metod/data-adquisition.png" class="metod"/>
+										</td>
+										<td>
+											<img src="img/metod/normalizacion.png" class="metod"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img src="img/metod/mi.png"	class="metod" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/metod/redes.png" class="metod" />
+										</td>
+										<td>
+											<img src="img/metod/distancia.png" class="metod"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img src="img/metod/integracion.png" class="metod" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				
+					<section data-background="img/gdc.png" data-background-transition="fade-in slide-out" data-transition="none">
+						<h4>Metodolog&iacute;a</h4>
+						<div style="float:left;width:35%;text-align:left">
+							<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
+						</div>
+						<div style="float:right;width:65%;text-align:right;visibility:hidden;">
+							<table class="metod" >
+								<thead></thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="img/metod/data-adquisition.png" class="metod"/>
+										</td>
+										<td>
+											<img src="img/metod/normalizacion.png" class="metod"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img src="img/metod/mi.png"	class="metod" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/metod/redes.png" class="metod" />
+										</td>
+										<td>
+											<img src="img/metod/distancia.png" class="metod"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img src="img/metod/integracion.png" class="metod" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+					<section  data-transition="none">
+					<h4>Metodolog&iacute;a</h4>
+						<div style="float:left;width:35%;text-align:left">
+							<img src="img/metod/data-base.png" style="border:none; box-shadow:none;opacity: 0.5;"/>
+							
+							<table class="muestras">
+								<thead>
+									<tr>
+										<th>Tipo de <br/>Tejido</th>
+										<th colspan="2">No. de muestras</th>
+										<th></th>
+									</tr>
+									<tr>
+										<th></th>
+										<th>Sano</th>
+										<th>Tumor</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Riñ&oacute;n</td>
+										<td>250</td>
+										<td>1204</td>
+									</tr>
+									<tr>
+										<td>Mama</td>
+										<td>113</td>
+										<td>1109</td>
+									</tr>
+									<tr>
+										<td>Pulm&oacute;n</td>
+										<td>108</td>
+										<td>1035</td>
+									</tr>
+									<tr>
+										<td>Tiroides</td>
+										<td>58</td>
+										<td>505</td>
+									</tr>
+									<tr>
+										<td>Pr&oacute;stata</td>
+										<td>52</td>
+										<td>499</td>
+									</tr>
+									<tr>
+										<td>Colorrectal</td>
+										<td>51</td>
+										<td>754</td>
+									</tr>
+									<tr>
+										<td>&Uacute;tero</td>
+										<td>50</td>
+										<td>740</td>
+									</tr>
+									<tr>
+										<td>H&iacute;gado</td>
+										<td>50</td>
+										<td>374</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div style="float:right;width:65%;text-align:right">
+							<table class="metod" >
+								<thead></thead>
+								<tbody>
+									<tr>
+										<td>
+											<img class="metod fragment fade-in-then-semi-out visible" src="img/metod/data-adquisition.png" data-fragment-index="1"
+										</td>
+										<td>
+											<img class="metod fragment fade-in-then-semi-out visible" 
+											data-fragment-index="2" src="img/metod/normalizacion.png"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img class="metod fragment fade-in-then-semi-out visible" 
+											data-fragment-index="3" src="img/metod/mi.png" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="4"
+											src="img/metod/redes.png" class="metod" />
+										</td>
+										<td>
+											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="4"
+											src="img/metod/distancia.png" class="metod"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="5"
+											src="img/metod/integracion.png" class="metod" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				</section>
+				<section>
+					<section data-background="#FF69B4" data-background-transition="zoom">
+						<h1  style="color:#fff;">C&aacute;ncer de <br/> mama</h1>
+					</section>
+					<section class="mama">
+						<h3>Subtipos de c&Aacute;ncer de mama</h3>
+					</section>
+					<section class="mama">
+						<img src="img/mama/circos.png" />
+					</section>
+				</section>
+				<section>
+					<section data-background="#ffa07a" data-background-transition="zoom">
+						<h1  style="color:#fff;">C&aacute;ncer de <br/> &uacute;tero</h1>
+					</section>
+					<section class="utero">
+						<h3>C&Aacute;ncer de &uacute;tero</h3>
+					</section>
+				</section>
+				<section>
+					<section data-background="#4682b4" data-background-transition="zoom">
+						<h1  style="color:#fff;">C&aacute;ncer de <br/> colon</h1>
+					</section>
+					<section class="colon">
+						<h3>C&Aacute;ncer de colon</h3>
+					</section>
+				</section>
+				<section>
+					<section data-background="#ff4500" data-background-transition="zoom">
+						<h1  style="color:#fff;">C&aacute;ncer de <br/>riñ&oacute;n</h1>
+					</section>
+					<section class="rinon">
+						<h3>C&Aacute;ncer de riñ&oacute;n</h3>
+					</section>
+				</section>
+				<section>
+					<section data-background="#fff" data-background-transition="zoom">
+						<h1  style="color:#000;">C&aacute;ncer de <br/>pulm&oacute;n</h1>
+					</section>
+					<section class="pulmon">
+						<h3>C&Aacute;ncer de pulm&oacute;n</h3>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/bgs/tiroid.png"  data-background-repeat="repeat"  
+					data-background-transition="zoom" data-background-size="50px">
+						<h1  style="color:#fff;">C&aacute;ncer de tiroides<br/></h1>
+					</section>
+					<section class="tiroides">
+						<h3>C&Aacute;ncer de tiroides</h3>
+					</section>
+				</section>
 			</div>
 		</div>
 
