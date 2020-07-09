@@ -2,6 +2,11 @@
   color: #002b36; 
  }
   
+.reveal section img {
+	border-color: #002b36;
+	padding: 5px 5px;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
