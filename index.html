@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=800, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=1200, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes:">
 
-		<title>Candidatura - Diana García</title>
+		<title>García-Cortés D.</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -25,50 +25,30 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<h3>Evaluaci&oacute;n de la regulaci&oacute;n trans en c&aacute;ncer: un enfoque de biolog&iacute;a de sistemas</h3>
-					<p>M. en C. Diana Elisa Garc&iacute;a Cort&eacute;s</p>
-					<p>Tutor principal: Dr. Jes&uacute;s Espinal Enriquez</p>
-					<hr></hr>
-					<p>Comité tutor: <br/> Dr. Alfredo Hidalgo Miranda <br/>
-									Dr. Gustavo Martínez-Mekler </p>
+				<section class="center">
+					<!-- <h2 class="title">Ribosome 	<span style="display:inline-block;color:#fd6467;" class="fragment fade-down"> and non ribosome, </span> disruption in Luminal A breast cancer revealed by gene co expression networks</h2> !-->
+                    <h2 class="title"> Tutoral 4 </h2>
+                    <h3 class="title">Evaluaci&oacute;n de la regulaci&oacute;n trans en c&aacute;ncer: un enfoque de biolog&iacute;a de sistemas</h3>
+					<p>Diana Garc&iacute;a-Cort&eacute;s</p>
+                    <footer style="margin-top:80px">
+                        <div style="float:left;width:50%;text-align:left">
+                            <img src="img/logos/unam-posgrado.png" width="50%"/>
+                        </div>
+                        <div style="float:right;width:50%;text-align:right">
+                            <img src="img/logos/inmegen.png" width="50%"/>
+                    </footer>
 				</section>
-				<section>
-					<blockquote cite="https://www.nature.com/articles/s41586-020-1969-6">
-						&ldquo;The promise of precision medicine is to match patients to targeted therapies using genomics. 
-					A major barrier to its evidence-based implementation is the daunting heterogeneity of 
-					cancer chronicled in these papers, from tumour type to tumour type, 
-					from patient to patient, from clone to clone and from cell to cell.&rdquo;
-					</blockquote>
-					<small class="cita">Campbell, P.J., Getz, G., Korbel, J.O. et al. 
-					    <b>Pan-cancer analysis of whole genomes</b>. Nature 578, 82–93 (2020). </small>
-				</section>
-				<section>
-					<img src="img/intro/pan_cancer.png"/>
-					<small class="cita">Campbell, P.J., Getz, G., Korbel, J.O. et al. 
-					    <b>Pan-cancer analysis of whole genomes</b>. Nature 578, 82–93 (2020). </small>
-				</section>
-				<section>
-					<img src="img/intro/emerging-hallmarks-cancer-ESP.png" style="width:70%;"/>
-					<small class="cita">Hanahan, Douglas, and Robert A. Weinberg. 
-					<b>Hallmarks of cancer: the next generation.</b> cell 144, no. 5 (2011): 646-674.</small>
-				</section>
-				<section> <!--data-background="#ffffff"> -->
-					<img src="img/intro/circo-plot-mama.png"/>
-					<small class="cita">Espinal-Enr&iacute;quez, J., Fresno, C., Anda-J&aacute;uregui, G., & Hern&aacute;ndez-Lemus, E. (2017).
-						 <b>RNA-Seq based genome-wide analysis reveals loss of inter-chromosomal regulation in breast cancer</b>. Scientific Reports, 7(1), 1–19. </small>
-				</section>
-				<section data-background="#002b36" data-background-transition="zoom">
+                <section data-background="#002b36" data-background-transition="zoom" class="center">
 						<h3>Pregunta de investigaci&oacute;n</h3>
-						<p class="fragment fade-up">Si la regulaci&oacute;n inter-cromos&oacute;mica se pierde en
+						<p class="fragment fade-up big">Si la regulaci&oacute;n inter-cromos&oacute;mica se pierde en
 						c&aacute;ncer de mama. ¿Se pierde tambi&eacute;n en otros tipos de c&aacute;ncer?</p>
 				</section>
-				<section data-background="#ffffff" data-background-transition="zoom">
+				<section data-background="#ffffff" data-background-transition="zoom" class="center">
 						<h3>Objetivo General</h3>
-						<p class="fragment fade-up">Evaluar la regulaci&oacute;n transcripcional inter e
+						<p class="fragment fade-up big">Evaluar la regulaci&oacute;n transcripcional inter e
 							intra-cromos&oacute;mica en diferentes tipos de c&aacute;ncer mediante un enfoque de biolog&iacute;a de sistemas.</p>
 				</section>
-				<section data-background="#002b36" data-background-transition="zoom">
+				<section data-background="#002b36" data-background-transition="zoom" class="center">
 						<h3>Objetivos Espec&iacute;ficos</h3>
 						<ul>
 							<li class="fragment fade-in-then-semi-out visible">Construir redes de
@@ -82,357 +62,284 @@
 								inter-cromos&oacute;mica es un fen&oacute;meno generalizado en  c&aacute;ncer.</li>
 						</ul>
 				</section>
-				<section>
-					<section>
-						<h4>Metodolog&iacute;a</h4>
-						<div style="float:left;width:35%;text-align:left">
-							<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
-						</div>
-						<div style="float:right;width:65%;text-align:right;visibility:hidden;">
-							<table class="metod" >
-								<thead></thead>
-								<tbody>
-									<tr>
-										<td>
-											<img src="img/metod/data-adquisition.png" class="metod"/>
-										</td>
-										<td>
-											<img src="img/metod/normalizacion.png" class="metod"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img src="img/metod/mi.png"	class="metod" />
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<img src="img/metod/redes.png" class="metod" />
-										</td>
-										<td>
-											<img src="img/metod/distancia.png" class="metod"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img src="img/metod/integracion.png" class="metod" />
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</section>
+				<section data-transition="slide-in" class="center">
+                    <h4>Metodolog&iacute;a</h4>
+					<div style="float:left;width:30%;text-align:left">
+						<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
+					</div>
+					<div style="float:right;width:70%;text-align:right;visibility:hidden;">
+						<table class="metod" >
+							<thead></thead>
+							<tbody>
+								<tr>
+									<td>
+										<img src="img/metod/data-adquisition.png" class="metod"/>
+									</td>
+									<td>
+										<img src="img/metod/normalizacion.png" class="metod"/>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<img src="img/metod/mi.png"	class="metod" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="img/metod/redes.png" class="metod" />
+									</td>
+									<td>
+										<img src="img/metod/distancia.png" class="metod"/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
 				
-					<section data-background="img/gdc.png" data-background-transition="fade-in slide-out" data-transition="none">
-						<h4>Metodolog&iacute;a</h4>
-						<div style="float:left;width:35%;text-align:left">
-							<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
-						</div>
-						<div style="float:right;width:65%;text-align:right;visibility:hidden;">
-							<table class="metod" >
-								<thead></thead>
-								<tbody>
-									<tr>
-										<td>
-											<img src="img/metod/data-adquisition.png" class="metod"/>
-										</td>
-										<td>
-											<img src="img/metod/normalizacion.png" class="metod"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img src="img/metod/mi.png"	class="metod" />
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<img src="img/metod/redes.png" class="metod" />
-										</td>
-										<td>
-											<img src="img/metod/distancia.png" class="metod"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img src="img/metod/integracion.png" class="metod" />
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</section>
-					<section  data-transition="none">
-					<h4>Metodolog&iacute;a</h4>
-						<div style="float:left;width:35%;text-align:left">
-							<img src="img/metod/data-base.png" style="border:none; box-shadow:none;opacity: 0.5;"/>
-							
-							<table class="muestras">
-								<thead>
-									<tr>
-										<th>Tipo de <br/>Tejido</th>
-										<th colspan="2">No. de muestras</th>
-										<th></th>
-									</tr>
-									<tr>
-										<th></th>
-										<th>Sano</th>
-										<th>Tumor</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Riñ&oacute;n</td>
-										<td>250</td>
-										<td>1204</td>
-									</tr>
-									<tr>
-										<td>Mama</td>
-										<td>113</td>
-										<td>1109</td>
-									</tr>
-									<tr>
-										<td>Pulm&oacute;n</td>
-										<td>108</td>
-										<td>1035</td>
-									</tr>
-									<tr>
-										<td>Tiroides</td>
-										<td>58</td>
-										<td>505</td>
-									</tr>
-									<tr>
-										<td>Pr&oacute;stata</td>
-										<td>52</td>
-										<td>499</td>
-									</tr>
-									<tr>
-										<td>Colorrectal</td>
-										<td>51</td>
-										<td>754</td>
-									</tr>
-									<tr>
-										<td>&Uacute;tero</td>
-										<td>50</td>
-										<td>740</td>
-									</tr>
-									<tr>
-										<td>H&iacute;gado</td>
-										<td>50</td>
-										<td>374</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<div style="float:right;width:65%;text-align:right">
-							<table class="metod" >
-								<thead></thead>
-								<tbody>
-									<tr>
-										<td>
-											<img class="metod fragment fade-in-then-semi-out visible" src="img/metod/data-adquisition.png" data-fragment-index="1"
-										</td>
-										<td>
-											<img class="metod fragment fade-in-then-semi-out visible" 
-											data-fragment-index="2" src="img/metod/normalizacion.png"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img class="metod fragment fade-in-then-semi-out visible" 
-											data-fragment-index="3" src="img/metod/mi.png" />
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="4"
-											src="img/metod/redes.png" class="metod" />
-										</td>
-										<td>
-											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="4"
-											src="img/metod/distancia.png" class="metod"/>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<img class="fragment fade-in-then-semi-out visible" data-fragment-index="5"
-											src="img/metod/integracion.png" class="metod" />
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</section>
+				<section class="center" data-background="img/gdc.png" data-background-transition="fade-in slide-out" data-transition="none">
+                     <h4>Metodolog&iacute;a</h4>
+					<div style="float:left;width:30%;text-align:left">
+						<img src="img/metod/data-base.png" style="border:none; box-shadow:none; "/>
+					</div>
+					<div style="float:right;width:70%;text-align:right;visibility:hidden;">
+						<table class="metod" >
+							<thead></thead>
+							<tbody>
+								<tr>
+									<td>
+										<img src="img/metod/data-adquisition.png" class="metod"/>
+									</td>
+									<td>
+										<img src="img/metod/normalizacion.png" class="metod"/>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<img src="img/metod/mi.png"	class="metod" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="img/metod/redes.png" class="metod" />
+									</td>
+									<td>
+										<img src="img/metod/distancia.png" class="metod"/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</section>
-				<section>
-					<section data-background="#FF69B4" data-background-transition="zoom">
-						<h1  style="color:#fff;">C&aacute;ncer de <br/> mama</h1>
-					</section>
-					<section class="mama">
-						<h3>Subtipos de c&Aacute;ncer de mama</h3>
-					</section>
-					<section class="mama">
-						<img src="img/mama/circos.png" />
-					</section>
-					<section class="mama">
-						<img src="img/mama/Figure2.png" width="70%"/>
-					</section>
-					<section class="mama">
-						<img src="img/mama/Figure3.png" />
-					</section>
-					<section class="mama">
-						<img src="img/mama/Figure4.png" />
-					</section>
-					<section class="mama">
-						<img src="img/mama/Figure7.png" width="80%"/>
-					</section>
-					<section class="mama">
-						<img src="img/mama/Figure6.png" />
-					</section>
+				<section class="center" data-transition="none">
+                     <h4>Metodolog&iacute;a</h4>
+					<div style="float:left;width:30%;text-align:left">
+						<img src="img/metod/data-base.png" style="border:none; box-shadow:none;opacity: 0.5;"/>
+					</div>
+					<div style="float:right;width:70%;text-align:right">
+						<table class="metod" >
+							<thead></thead>
+							<tbody>
+								<tr>
+									<td>
+										<img src="img/metod/data-adquisition.png"  />
+									</td>
+									<td>
+										<img src="img/metod/normalizacion.png" />
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<img src="img/metod/mi.png" width="300px"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="img/metod/redes.png" class="metod" />
+									</td>
+									<td>
+										<img src="img/metod/distancia.png" class="metod"/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+				<section data-transition="slide-in">
+					<h1 class="small subtitle">Gene co-expression is distance dependent in breast cancer</h1>
 					
+                    <p class="small left greenish">Features in the co-expression patterns of breast cancer molecular subtypes:</p>
+					<ol>
+                        <li>The strength of gene-pair co-expression depends on physical distance</li>
+					</ol>
+                    <img src="img/Figure3.png" width="100%"/>  
+                    
+					<small class="cita"> García-Cortes D. et al. <b>Gene co-expression is distance dependent in breast cancer</b>. Front. Oncol. 10:1232 (2020). doi:10.3389/fonc.2020.01232 </small>
+				</section>
+                <section data-transition="none">
+					<h1 class="small subtitle">Gene co-expression is distance dependent in breast cancer</h1>
+					
+                    <p class="small left greenish">Features in the co-expression patterns of breast cancer molecular subtypes:</p>
+					
+					<ol class="fragment fade-up" data-fragment-index="1" start="2">
+						<li>There is a intra-/inter- chromosomal interactions proportion imbalance in the co-expression networks </li>
+					</ol>
+                    <img class="fragment fade-up" data-fragment-index="1" src="img/Figure1.png" width="75%"/>
+					<small class="cita fragment fade-up" data-fragment-index="1"> García-Cortes D. et al. <b>Gene co-expression is distance dependent in breast cancer</b>. Front. Oncol. 10:1232 (2020). doi:10.3389/fonc.2020.01232 </small>
+				</section>
+                <section  data-transition="none">
+					<h1 class="small subtitle">Gene co-expression is distance dependent in breast cancer</h1>
+					
+                   <p class="small left greenish">Features in the co-expression patterns of breast cancer molecular subtypes:</p>
+					
+					<ol>
+						<li>There is a intra-/inter- chromosomal interactions proportion imbalance in the co-expression networks </li>
+						<li>The strength of gene-pair co-expression depends on physical distance</li>
+                        <li class="fragment fade-up" data-fragment-index="1">There is an emergence of high density co-expression hotspots</li>
+						<li class="fragment fade-up" data-fragment-index="1">Strongest interactions as well as hotspots are preferably intra-cytoband in breast cancer</li>
+					</ol>
+					<small style="padding:50px 0px 0px 0px;" class="cita fragment fade-up" data-fragment-index="1"> García-Cortes D. et al. <b>Gene co-expression is distance dependent in breast cancer</b>. Front. Oncol. 10:1232 (2020). doi:10.3389/fonc.2020.01232 </small>
+				</section>
+                <section class="center">
+                    <h1> Are there functional implications in these breast cancer co-expression features? </h1>
 				</section>
 				<section>
-					<h3>Para cada tipo de c&aacute;ncer</h3>
-					<ul>
-						<li>Valores promedio de MI por cada 5mbp </li>
-						<li>Valores de MI para las interacciones en las redes</li>
-						<li>Redes</li>
-						<li>Interacciones intra-cromos&oacute;micas</li>
-						<li>Distancia promedio de las comunidades en las interacciones intra-cromos&oacute;micas</li>
+                    <h1 class="subtitle">The Luminal A breast cancer co-expression network</h1>
+					<img src="img/networks.png" width="100%"/>
+					<ui class="nodecor">
+						<li>Most significat interactions: <em>p&lt;1e-8</em></li>
+                        <li>20127 links - 6008 (LumA), 6348 (Healthy) nodes</li>
 					</ul>
 				</section>
-				<section>
-					<section data-background="#ffa07a" data-background-transition="zoom">
-						<h1  style="color:#fff;">C&aacute;ncer de <br/> &uacute;tero</h1>
-					</section>
-					<section class="utero">
-						<h3>C&Aacute;ncer de &uacute;tero</h3>
-					</section>
-					<section class="utero">
-						<img src="img/utero/mi-barplot-distance.png" />
-					</section>
-					<section class="utero">
-						<img src="img/utero/mi-boxplot-min-network.png"  width="60%;"/>
-					</section>
-					<section class="utero">
-						<img src="img/utero/networks.png" width="80%" />
-					</section>
-					<section class="utero">
-						<img src="img/utero/intra.png" />
-					</section>
-					<section class="utero">
-						<img src="img/utero/comm-meandist-histogram-network.png" />
-						
-					</section>
+                <section>
+                    <h1 class="subtitle">Network communities</h1>
+					<img src="img/community-fraction-intra-links.png" width="100%"/>
+					<p class="big"> Loss of intra-chromosomal co-expression &#128077;</p>
 				</section>
-				<section>
-					<section data-background="#4682b4" data-background-transition="zoom">
-						<h1  style="color:#fff;">C&aacute;ncer de <br/> colon</h1>
-					</section>
-					<section class="colon">
-						<h3>C&Aacute;ncer de colon</h3>
-					</section>
-					<section class="colon">
-						<img src="img/colon/mi-barplot-distance.png" />
-					</section>
-					<section class="colon">
-						<img src="img/colon/mi-boxplot-min-network.png"  width="60%;"/>
-					</section>
-					<section class="colon">
-						<img src="img/colon/networks.png" width="80%" />
-					</section>
-					<section class="colon">
-						<img src="img/colon/intra.png" />
-					</section>
-					<section class="colon">
-						<img src="img/colon/comm-meandist-histogram-network.png" />
-					</section>
-				</section>
-				<section>
-					<section data-background="#ff4500" data-background-transition="zoom">
-						<h1  style="color:#fff;">C&aacute;ncer de <br/>riñ&oacute;n</h1>
-					</section>
-					<section class="rinon">
-						<h3>C&Aacute;ncer de riñ&oacute;n</h3>
-					</section>
-					<section class="rinon">
-						<img src="img/rinon/mi-barplot-distance.png" />
-					</section>
-					<section class="rinon">
-						<img src="img/rinon/mi-boxplot-min-network.png"  width="60%;"/>
-					</section>
-					<section class="rinon">
-						<img src="img/rinon/networks.png" width="80%" />
-					</section>
-					<section class="rinon">
-						<img src="img/rinon/intra.png" />
-					</section>
-					<section class="rinon">
-						<img src="img/rinon/comm-meandist-histogram-network.png" />
-					</section>
-				</section>
-				<section>
-					<section data-background="#fff" data-background-transition="zoom">
-						<h1  style="color:#000;">C&aacute;ncer de <br/>pulm&oacute;n</h1>
-					</section>
-					<section class="pulmon">
-						<h3>C&Aacute;ncer de pulm&oacute;n</h3>
-					</section>
-					<section class="pulmon">
-						<img src="img/pulmon/mi-barplot-distance.png" />
-					</section>
-					<section class="pulmon">
-						<img src="img/pulmon/mi-boxplot-min-network.png"  width="60%;"/>
-					</section>
-					<section class="pulmon">
-						<img src="img/pulmon/networks.png" width="80%" />
-					</section>
-					<section class="pulmon">
-						<img src="img/pulmon/intra.png" />
-					</section>
-					<section class="pulmon">
-						<img src="img/pulmon/comm-meandist-histogram-network.png" />
-					</section>
-				</section>
-				<section>
-					<section data-background="img/bgs/tiroid.png"  data-background-repeat="repeat"  
-					data-background-transition="zoom" data-background-size="50px">
-						<h1  style="color:#fff;">C&aacute;ncer de tiroides<br/></h1>
-					</section>
-					<section class="tiroides">
-						<h3>C&Aacute;ncer de tiroides</h3>
-					</section>
-					<section class="tiroides">
-						<img src="img/tiroides/mi-barplot-distance.png" />
-					</section>
-					<section class="tiroides">
-						<img src="img/tiroides/mi-boxplot-min-network.png"  width="60%;"/>
-					</section>
-					<section class="tiroides">
-						<img src="img/tiroides/networks.png" width="80%" />
-					</section>
-					<section class="tiroides">
-						<img src="img/tiroides/intra.png" />
-					</section>
-					<section class="tiroides">
-						<img src="img/tiroides/comm-meandist-histogram-network.png" />
-					</section>
-				</section>
+                <section>
+                    
+                    <p class="question">Are Luminal A network communities associated with biological functions?</p>
+                    <div style="float:left;width:35%;text-align:left">
+                        <table>
+					        <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Inter</th>
+								    <th>Intra</th>
+                                </th>
+                            </thead>
+							<tbody>
+								<tr>
+                                    <td class="small">Number of communities</td>
+									<td class="right">87</td>
+									<td class="right">612</td>
+								</tr>
+								<tr>
+									<td class="small">Enriched communities</td>
+									<td class="right">20</td>
+									<td class="right">9</td>
+								</tr>
+								<tr>
+									<td class="small">Enriched terms</td>
+									<td class="right">792</td>
+									<td class="right">136</td>
+								</tr>
+							</tbody>
+                        </table>
+                        <p></p>
+                        <small> Gene Ontology - Biological Processes </br> Adjusted <em>p-value &lt; 0.005</em></small>
+					</div>
+            
+					<div style="float:right;width:65%;text-align:right">
+						<img src="img/enrichment-alluvial.png" width="500px"/>
+                    </div>
+                </section>
+                <section>
+                    <p>Are Luminal A enriched communities differentially expressed?</p>
+                        <img data-transition="fade-out" src="img/luma-diff-exp.png"  width=65%" />
+                </section>
+				<section data-transition="slide-in">
+                    <p>Are Luminal A enriched communities differentially expressed?</p>
+                        <img data-transition="fade-out" src="img/intercomms-lfc-enrichment.png"/>
+                </section>
+                <section data-transition="none">
+                    <p>Are Luminal A enriched communities differentially expressed?</p>
+                        <img src="img/intercomms-lfc-enrichment-foxm1.png" />
+                    <small class="cita">Lu XF et al. <b>FoxM1 is a promising candidate target in the treatment of breast cancer</b>. Oncotarget. 2017;9(1):842-852. doi:10.18632/oncotarget.23182 </small>
+                    <small class="cita">Carr JR et al. <b>FoxM1 regulates mammary luminal cell fate</b>.Cell Rep. 2012;1(6):715-729. doi:10.1016/j.celrep.2012.05.005</small>
+                </section>
+                <section>
+                    <p class="question">Is gene differential expression influenced by gene copy number variation in Luminal A enriched communities?</p>
+                        <img src="img/luma-gistic.png" width="75%"/>
+                </section>
+           
+                <section>
+                    <p class="question">Is gene differential expression influenced by gene copy number variation in Luminal A enriched communities?</p>
+                    <p class="left">HIST1H2AC community</p>
+                        <img src="img/comm-91-exp-gistic.png" />
+                    <p>Chromatin silencing; epigenetic regulation of gene expression; DNA packaging. </p>
+                    <small class="cita">Mermel, CH, et al. <b>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</b>. Genome Biol. 2011;12(R41). doi:10.1186/gb-2011-12-4-r41</small>
+                </section>
+                <section >
+                    <p class="question">Is gene differential expression influenced by gene copy number variation in Luminal A enriched communities?</p>
+                    <p class="left no-margin">RPL35 community</p>
+                        <img src="img/comm-146-exp-gistic.png" width="75%"/>
+                    <p class="no-margin"> Protein localization to endoplasmic reticulum; ribosome assembly; 
+regulation of translation. </p>
+                    
+                    <small class="cita">Mermel, CH, et al. <b>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</b>. Genome Biol. 2011;12(R41). doi:10.1186/gb-2011-12-4-r41</small>
+                </section>
+                     <section >
+                    <p class="question">Is gene differential expression influenced by gene copy number variation in Luminal A enriched communities?</p>
+                    <p class="left no-margin">FOXM1 community</p>
+                        <img src="img/comm-158-exp-gistic.png" width="75%"/>
+                    <p class="no-margin"> Cell cycle checkpoint; DNA replication. </p>
+                    
+                    <small class="cita">Mermel, CH, et al. <b>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</b>. Genome Biol. 2011;12(R41). doi:10.1186/gb-2011-12-4-r41</small>
+                </section>
+                <section >
+                    <p class="question">Is gene co-expression influenced by CNVs in the entire set of intra-chromosomal interactions?</p>
+                        <img src="img/luma-intra-communities.png" />
+                     <small> Provisional result: Deletions are more frequently associated with high density co-expression hotspots than amplifications. </small>
+                </section>
+                <section>
+                    <h1 class="subtitle">Conclusions</h1>
+                    <ul>
+                        <li> Topology of network communities confirms the loss of inter-chromosomal co-expression in breast cancer. </li>
+</br>
+                        <li class="greenish"> Inter-chromosomal communities are highly associated with cancer related biological processes while intra-chromosomal communities are not usually enriched.</li>
+</br>
+                        <li> Other -omics integration is required to understand the loss of long-range co-expression in breast cancer.</li>
+</br>
+                        <li class="greenish"> Copy number alterations explain a fraction of the biological processes disruption in Luminal A breast cancer.</li> 
+                    </ul>
+                    <p class ="small statement"> The loss of inter-chromosomal co-expression is a phenomenon influenced by different factors physically altering transcriptional regulation in cancer.</p>
+                </section>
+                <section class="center">
+                    <h2 class="title">Thank you</h2>
+                      <p class ="small right"> </br></br></br>Diana García-Cortés </br> dgarcia@inmegen.edu.mx </br> @ddiannae</p> 
+                   
+                </section>
 			</div>
 		</div>
-
+        
 		<script src="js/reveal.js"></script>
 
 		<script>
+            // 009999 00FFFF 9966FF 660099
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				hash: true,
+                center: false,
+                //width: '100%',
+                //height: '100%',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
